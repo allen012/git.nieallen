@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="button.css">
+</head>
+<header class="header">
+  <h2>hmm hello walang NO!! button dito </h2>
+  <h1>CRUSH?,</h1>
+  <p> hi kamusta ka? sana palagi kang masaya at alam moba na...</p>
+  
+  <p>sa bawat oras na makikita kita.para akong nakatingin sa isang bituwin. isang napakaganda na bituwin pero malabong maging akin </p>
+  
+  <p>alam ko naman malabo na magustuhan moko pero habang tumatagal mas lumalalim ang pagibig ko sayo</p>
+  
+  <p>kaya ngayun ito sasabihin kona gusto kita. </p>
+  
+  <p class="signature">[love]</p>
+  
+</div>
+</header>
+    
+<body>
+
+</head>
+<body>
+    <div class="container2">
+        <video width="640" height="360" controls autoplay>
+            <source src="video.mp4.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+<button id="buttonToMove" onclick="moveButton()">NO!</button>
+<button onclick="showMessage()">YESSSSS</button>
+<div id="messageBox" class="message-box">
+  <p>sabi sayo bawal mag NO! hehe</p>
+  <p>Date tayo ah. matagal na kita gusto MWAH</p>
+  <button onclick="hideMessage()">Close</button>
+</div>
+
+<script>
+function moveButton() {
+  var button = document.getElementById("buttonToMove");
+  var newPositionTop = Math.random() * (window.innerHeight - 50); // Adjust 50 according to button height
+  var newPositionLeft = Math.random() * (window.innerWidth - 100); // Adjust 100 according to button width
+  button.style.top = newPositionTop + "px";
+  button.style.left = newPositionLeft + "px";
+}
+
+function showMessage() {
+  var messageBox = document.getElementById("messageBox");
+  messageBox.style.display = "block";
+}
+
+function hideMessage() {
+  var messageBox = document.getElementById("messageBox");
+  messageBox.style.display = "none";
+}
+</script>
+
+</body>
+</html>
+

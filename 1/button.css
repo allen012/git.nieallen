@@ -1,0 +1,58 @@
+body {
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(240, 192, 200);
+    
+}
+.container {
+    
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(231, 83, 83, 0.1);
+    background-image: url(qwerty.jpg);
+}
+#buttonToMove {
+    position: absolute;
+    position:center;
+    top: 50px;
+    left: 50px;
+    background-image: url(sky.jpg);
+  }
+.message-box {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-image: url(qwerty.jpg);
+    border: 1px solid #f59898;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 9999;
+  }
+.container2 {
+    margin: 0;
+    padding: 0;
+    background-color: #f7b9b9;
+    position: center;
+    max-width: 1000px;
+    margin: 0px auto;
+    padding: 0px;
+    background-image: url(qwerty.jpg);
+}
+.header{
+  text-align: center;
+  color: #160f0f;
+text-decoration: underline;
+}
+
+  
